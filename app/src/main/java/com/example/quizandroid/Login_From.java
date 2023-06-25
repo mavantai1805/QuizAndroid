@@ -50,7 +50,7 @@ public class Login_From extends AppCompatActivity {
 
         load = new Dialog(this);
         load.setContentView(R.layout.load);
-        load.getWindow().setBackgroundDrawable(getDrawable(R.drawable.bookmark_border));
+        load.getWindow().setBackgroundDrawable(getDrawable(R.drawable.ic_action_bookmaark));
         load.getWindow().setLayout(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         load.setCancelable(false);
 
